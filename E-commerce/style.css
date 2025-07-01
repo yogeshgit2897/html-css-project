@@ -1,0 +1,74 @@
+
+body{
+    margin: 0px;
+    font-family: "Josefin Sans", sans-serif;
+    /* font-style: normal;
+    font-weight: 100px; */
+}
+.header {
+    display: flex;
+    margin-top: 20px;
+}
+.wrapper{
+     margin-left: 5%;
+    margin-right: 5%;
+}
+.full_banner_width {
+    border-top: 1px solid #ddd;
+}
+.logo {
+    width: 25%;
+}
+.logo h1 {
+    margin: 0px;
+}
+.search_bar {
+    width: 50%;
+}
+.cart {
+    width: 25%;
+}
+.input_search {
+    width: 70%;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-right: none;
+}
+button.search_btn {
+    font-size: 20px;
+    font-weight: 400;
+    border: 1px solid #ddd;
+    background-color: transparent;
+    padding: 10px;
+    margin-left: -5px;
+}
+button.wishlist_btn {
+    font-size: 15px;
+    font-weight: 400;
+    height: 44px;
+    border: 1px solid #ddd;
+    background-color: transparent;
+    width: 40px;
+}
+button.cart_btn {
+    font-size: 15px;
+    font-weight: 400;
+    height: 44px;
+    border: 1px solid #ddd;
+    background-color: transparent;
+    width: 40px;
+}
+span.e_text {
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-left: 5px;
+    color: green;
+    font-size: 24px;
+}
+span.e_comm {
+    padding: 5px;
+    margin-left: 5px;
+    color: green;
+    font-size: 24px;
+}
